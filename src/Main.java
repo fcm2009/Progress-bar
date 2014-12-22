@@ -4,11 +4,11 @@ import java.awt.*;
 /**
  * Created by Mohammed Alshehry on 12/17/14.
  */
-public class Test extends JFrame {
+public class Main extends JFrame {
     JProgressBar progressBar;
 
 
-    public Test() {
+    public Main() {
         this.setSize(720, 480);
         this.setLayout(new BorderLayout());
 
@@ -19,7 +19,7 @@ public class Test extends JFrame {
     }
 
     public static void main(String args[]) {
-        Test x = new Test();
+        Main x = new Main();
     }
 
 }
